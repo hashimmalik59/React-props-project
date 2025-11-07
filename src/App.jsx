@@ -86,7 +86,7 @@ const App = () => {
         },
         {
             companyLogo: OpenAILogo,
-            companyName: "OpenAI",
+            companyName: "ChatGPT",
             postTime: "2 days ago",
             jobRole: "Machine Learning Engineer",
             jobDuration: "Contract",
