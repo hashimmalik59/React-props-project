@@ -1,0 +1,127 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* ya space-between / flex-start based on vibe */
+    align-items: flex-start;
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    height: 270px;
+    width: 275px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 10px;
+    transition: all ease-in-out .25s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.card-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img-parent {
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    box-shadow: 0 0 5px;
+}
+
+.img-parent img {
+    border-radius: 50%;
+    width: 40px;
+    height: 35px;
+    box-shadow: 0 0 2px;
+}
+
+.card .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.save {
+    border: 1px solid #212121;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.card-post-time {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-role {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.card-post-time span {
+    font-size: 10px;
+    color: gray;
+}
+
+.card-post-time h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-job-timing {
+    display: flex;
+    gap: 10px;
+}
+
+.card-job-timing span {
+    border-radius: 3px;
+    padding: 2px 5px;
+    background-color: rgb(209, 209, 209);
+    color: #000;
+}
+
+.card-price {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between
+}
+
+.card-price .price {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.card-price .price .card-location {
+    font-size: 13px;
+}
+
+.card-price>span {
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 0 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
